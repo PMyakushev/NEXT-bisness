@@ -23,9 +23,9 @@ for (int i = 0; i < array.Length-m; i++)
     int t = 0;
     for (int j = i; j < i+m; j++)
     {
-        t+=array[j]; // запись трех чисел t=t+rray[j] 1) 0=0+7 2) 7=7+9 3)16=9+2 4)5=3+8 5)11=
+        t+=array[j]; // запись трех чисел t=t+rray[j] 1) 0=0+9 2) 9=9+5 3) 14=14+9 4) 0=0+5 5)11=
         if (t>max) max = t;
-        Console.WriteLine($"j:  {t}");
+        Console.WriteLine($"{i}-j-{(j)}:  {t}");
     }
 }
 
