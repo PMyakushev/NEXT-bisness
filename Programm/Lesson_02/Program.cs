@@ -1,4 +1,5 @@
-﻿// int n = 5;
+﻿// Big O Notation
+// int n = 5;
 // int[] array = new int[n];
 // for (int i = 0; i < 5; i++)
 //     array[i] = Convert.ToInt32(Console.ReadLine());
