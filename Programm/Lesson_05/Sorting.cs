@@ -1,4 +1,9 @@
 
+
+
+
+
+
 public static class Sorting
 {
   public static int[] SortQuick(this int[] collection, int left, int right)
@@ -21,7 +26,7 @@ public static class Sorting
         j--;
       }
     }
-    if (i < right) SortQuick(collection, i, right);
+    if (i < right) SortQuick(collection, i, right); 
     if (left < j) SortQuick(collection, left, j);
     return collection;
   }
